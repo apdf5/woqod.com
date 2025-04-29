@@ -1,0 +1,174 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript">
+//<![CDATA[
+window["_csrf_"] = "08ec9302358410016509b51f39e16feded120b066d840831005f20e2d2aaa65a3cf91adb843185edcee0cfa460068b017f47227d01c71850c49bd89efc80245f1136c5c967a8d9dc4c2ebc817a904aaf1f1a2a437deb1bee46bd5001d0f558ecba0e18a6c859e82b51c5fa45da2c8f629a61e4785568d3dfd9967e1645790f28a104dc31315db6a3596850098c6c329a7d571ddc1eedaa6b3571f10efa4a4154f49981f5c8d416d90be0513ef3bf6604d0eb2f3e6ed1328c104574ca02e328c719b2340f7bf1466d3d1dd0dc3a6ed74cd5592a71aea5819d7c2c9fbb7cbdac8cbc33f7723d059724a0e95b599cfda102febf1e8d1c8ae9c5efcbb0551d2d3f6e7e743e78d97918bd8a3830d7f241b502ed05bfc580c3d4a5";
+//]]>
+</script><script type="text/javascript" src="/TSbd/089df2b21cab2000f307c23cd00c2c6cd476a9d3df84fbfb793940625f7a2bec79cbb207f2a5ef04?type=2"></script><script src="/Scripts/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="/Content/w3.css">
+    <style type="text/css">
+        #invoice-POS {
+            background: #ffffffe8;
+            border: solid 1px #01733d;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+        }
+
+        @media print {
+            button {
+                display: none;
+            }
+
+            #invoice-POS {
+                box-shadow: none;
+                border: none;
+            }
+        }
+
+        body {
+            background-color: #ffffff;
+            background-image: url("/Images/theme/166/bg.png");
+            background-repeat: repeat-x;
+        }
+
+        #dvroot {
+            background-image: url("/Images/theme/166/WoqodStar.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 40%
+        }
+    </style>
+</head>
+<body>                        
+    <div id="dvroot" class="w3-row">
+        <style type="text/css" id="dvStyle">
+            #invoice-POS {
+                /*box-shadow: 1px 1px 1in 0in rgba(0, 0, 0, 0.5);*/
+                padding: 2mm;
+                margin: 0 auto;
+                font-size: 9px;
+                text-align: right;
+                font-family: "Arial";
+                line-height: 1.5em;
+            }
+
+            .ar {
+                font-family: "Noto Naskh Arabic";
+            }
+
+            button {
+                width: 80px;
+                height: 40px;
+                font-size: 12pt;
+            }
+
+            #tbl {
+                width: 100%;
+                text-align: right;
+                float: right;
+            }
+        </style>
+
+        <div class="w3-third w3-container"></div>
+        <div class="w3-third w3-container">
+            <div id="invoice-POS">
+                <div class="inv">
+                    <button id="print">Print</button>
+                    <button id="pdf">PDF</button>
+                    <p class="invoice">
+                        <br/>
+<br/><label class='ar'>قطر </label><label class='ar'>للوقود </label><label class='ar'>، </label><label class='ar'>وقود
+</label><br/>Qatar Fuel WOQOD<br/> 
+<br/>Site Name : Al Thumama <br/>
+<br/><label class='ar'>رقم </label><label class='ar'>المحطة:</label> 000611
+<br/>Station NO: 000611<br/>
+<br/><label class='ar'>اسم </label><label class='ar'>الموظف </label>: 
+<br/>Staff Name: <br/>
+<br/><label class='ar'>معاملة </label><label class='ar'>نقديه
+</label><br/>Cash Transaction<br/> 
+<br/><label class='ar'>رقم </label><label class='ar'>المعاملة:</label> 0006160005145884
+<br/>Transaction Number:0006160005145884<br/>
+<br/><label class='ar'>تاريخ </label><label class='ar'>و </label><label class='ar'>وقت </label><label class='ar'>الايصال
+</label><br/>23:40:27 31.03.2025<br/>
+<br/>Receipt date/ Time<br/>
+<br/> 23:40:27 31.03.2025<br/>
+<br/><label class='ar'>تاريخ </label><label class='ar'>ووقت </label><label class='ar'>البيع </label>
+<br/>23:40:27 31.03.2025<br/>
+<br/>Sale date / Time<br/>
+<br/>23:40:27 31.03.2025 <br/>
+<br/><label class='ar'>رقم </label><label class='ar'>المضخة </label>: 4
+<br/>Pump No: 4 <br/>
+<br/><label class='ar'>المنتج </label>: SILVER 91
+<br/>Product : SILVER 91<br/>
+<br/><label class='ar'>سعر </label><label class='ar'>الوحدة </label>: 2.0500  <label class='ar'>ر.</label><label class='ar'>ق
+</label><br/>Unit Price: 2.0500 QR<br/>
+<br/><label class='ar'>ليتر </label>: 63.4146 <label class='ar'>حجم
+</label><br/>Volume: 63.4146 LT<br/>
+<br/><label class='ar'>المبلغ:</label> 130.00 <label class='ar'>ر.</label><label class='ar'>ق </label> 
+<br/>Amount: 130.00 QR<br/>
+<br/><label class='ar'>شكرا </label><label class='ar'>لزيارتك </label><label class='ar'>لمحطات </label><label class='ar'>الوقود
+</label><br/><label class='ar'>نتمنى </label><label class='ar'>لكم </label><label class='ar'>رحلة </label><label class='ar'>آمنة </label><br/>
+<br/><label class='ar'>للاستسفار </label><label class='ar'>يرجى </label><label class='ar'>الاتصال
+</label><br/>40217777<br/>
+<br/>Thank you for fueling<br/>
+<br/>Have a safe Journey<br/>
+<br/>For inquiry, please call<br/>
+<br/>40217777<br/>
+<br/>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="w3-third w3-container"></div>
+    </div>
+
+    <script type="text/javascript">
+        String.prototype.toHtmlEncode = function () {
+            return String(this)
+                .replace(/&/g, '&amp;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;');
+        }
+
+        $(document).ready(function () {
+            $("#pdf").click(function (e) {
+                debugger;
+                e.preventDefault();
+                var key = "eReciptPdfFile" + Math.random();
+                var html = $("#invoice-POS").parents("body").children().html().toHtmlEncode();
+                var style = ""; //$("#invoice-POS").parents("html").html(); //$("#dvStyle").html().toHtmlEncode(); //encodeURI(document.getElementById("dvStyle").innerHTML);                
+
+                debugger;                
+                $.ajax({
+                    type: "GET",
+                    url: "/WoqodeRecipt/ReciptPdfFile",
+                    data: { html: html, key: key, style: style, type: 1 },
+                    success: function (a) {
+                        if (a.message == "") {
+                            var url = "/ReciptPdfFile?type=2&key=" + key;
+                            if ($.browser.msie && jQuery.browser.version.indexOf("7") == 0 || $.browser.msie && jQuery.browser.version.indexOf("8") == 0) {
+                                url = url + "&UrlReferrer=" + window.location.pathname;
+                            }
+                            window.location.href = url;
+                        } else {
+                            alert(a.message);
+                        }
+                    }
+                });
+
+            });
+
+            $("#print").click(function (e) {
+                e.preventDefault();
+                window.print();
+            });
+        });       
+    </script>
+</body>
+</html>
